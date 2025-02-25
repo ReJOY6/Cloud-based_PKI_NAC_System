@@ -29,3 +29,20 @@
 
 
 ---
+
+#### 25.02.2025
+
+##### Tagesziele:
+
+
+
+##### Was habe ich gemacht?
+
+
+
+##### Schwierigkeiten/Probleme:
+
+
+
+##### Eingesetzte Ressourcen:
+
