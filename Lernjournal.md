@@ -34,15 +34,28 @@
 
 ##### Tagesziele:
 
+- Ideen für ein oder mehrere Projekte recherchieren
+- mind. mit einem 1 Projekt anfangen
+- Cloud9 Umgebung erstellen
+
 
 
 ##### Was habe ich gemacht?
+
+- Ideen für ein Projekt überlegt und angefangen (MS Fabric)
+- Readme übersichtlich gemacht
+- Cloud9 Umgebung erstellt
 
 
 
 ##### Schwierigkeiten/Probleme:
 
-
+Einen überblick habenn was ich alles machen möchte
 
 ##### Eingesetzte Ressourcen:
 
+- AWS Cloud9
+- Visio
+- Firmendoku
+
+---
