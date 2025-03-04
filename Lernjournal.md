@@ -60,3 +60,30 @@ Einen überblick habenn was ich alles machen möchte
 - [YouTube-Tutorial](https://www.youtube.com/watch?v=NkHNbtZIQbE)
 
 ---
+
+#### 04.03.2025
+
+##### Tagesziele:
+
+- Entscheiden Projekt Passwort-Manager oder Chatapplikation
+- mind. mit einem 1 Projekt weiter machen
+- Infrastruktur/Aufbau des Projekts plannen
+
+
+
+##### Was habe ich gemacht?
+
+- Ich habe mich entschieden ein Passwort-Manager in der Cloud zu hosten und verwalten (Bitwarden)
+- Readme übersichtlich gemacht
+- Infrastruktur/Aufbau des Projekts geplannt
+
+
+
+##### Schwierigkeiten/Probleme:
+
+Die korrekten AWS Ressourcen und Services für mein Projekt aussuchen
+
+##### Eingesetzte Ressourcen:
+
+- [Selfhost Bitwarden](https://www.youtube.com/watch?v=SSLGa0LjTrA&t=0s)
+

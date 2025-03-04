@@ -10,6 +10,7 @@
 
   - #### Cloud app builders - Deployment einer Beispielanwendung in der Cloud
   - #### MS-Fabric Umgebung
-  - #### FireFly III (Finanzverwaltungsapplikation)
+  - #### Bitwarden (Passwort Manager)
+  - #### MS Fabric Umgebung
   
 
