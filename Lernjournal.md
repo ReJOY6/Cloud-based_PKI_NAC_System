@@ -76,6 +76,7 @@ Einen überblick habenn was ich alles machen möchte
 - Ich habe mich entschieden ein Passwort-Manager in der Cloud zu hosten und verwalten (Bitwarden)
 - Readme übersichtlich gemacht
 - Infrastruktur/Aufbau des Projekts geplannt
+- Installtionskript für Bitwarden erstellt/angefangen zu erstellen
 
 
 
