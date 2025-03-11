@@ -96,17 +96,19 @@ Die korrekten AWS Ressourcen und Services für mein Projekt aussuchen
 
 - Bitwarden Installationskript fertig schreiben
 - Infrastruktur/Aufbau des Projekts plannen
-- "Domaine" mit AWS Elastic IP erstellen
-- 
-
+- Instancen erstellen
 
 
 ##### Was habe ich gemacht?
 
-
+- Ich habe das Skript fertig geschrieben
+- Infrastruktur geplannt
+- DB und Ec2 Instanz erstellt und miteinander verbunden
 
 
 ##### Schwierigkeiten/Probleme:
+
+- Mein Private key hat nicht mehr funktioniert und ich musste neue instanzen mit einem neuem Schlüsselpaar erstellen und die alte löschen
 
 
 ##### Eingesetzte Ressourcen:
