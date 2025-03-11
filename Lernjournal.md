@@ -104,6 +104,7 @@ Die korrekten AWS Ressourcen und Services für mein Projekt aussuchen
 - Ich habe das Skript fertig geschrieben
 - Infrastruktur geplannt
 - DB und Ec2 Instanz erstellt und miteinander verbunden
+- Meine Dokumentation bezüglich meine Idee und wie ich diese Umsetzte angefangen
 
 
 ##### Schwierigkeiten/Probleme:
@@ -114,3 +115,4 @@ Die korrekten AWS Ressourcen und Services für mein Projekt aussuchen
 ##### Eingesetzte Ressourcen:
 
 - [Selfhost Bitwarden](https://www.youtube.com/watch?v=SSLGa0LjTrA&t=0s)
+- ChatGPT
