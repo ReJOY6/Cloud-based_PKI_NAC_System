@@ -1,0 +1,9 @@
+#cloud-config
+users:
+  - name: Rejoy
+    groups: sudo
+    sudo: "ALL=(ALL) NOPASSWD:ALL"
+    shell: /bin/bash
+
+runcmd:
+  - echo "Benutzer Rejoy wurde erstellt und hat sudo-Rechte ohne Passwort."

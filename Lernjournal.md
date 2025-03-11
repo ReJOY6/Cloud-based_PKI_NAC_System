@@ -88,3 +88,27 @@ Die korrekten AWS Ressourcen und Services für mein Projekt aussuchen
 
 - [Selfhost Bitwarden](https://www.youtube.com/watch?v=SSLGa0LjTrA&t=0s)
 
+---
+
+#### 04.03.2025
+
+##### Tagesziele:
+
+- Bitwarden Installationskript fertig schreiben
+- Infrastruktur/Aufbau des Projekts plannen
+- "Domaine" mit AWS Elastic IP erstellen
+- 
+
+
+
+##### Was habe ich gemacht?
+
+
+
+
+##### Schwierigkeiten/Probleme:
+
+
+##### Eingesetzte Ressourcen:
+
+- [Selfhost Bitwarden](https://www.youtube.com/watch?v=SSLGa0LjTrA&t=0s)
