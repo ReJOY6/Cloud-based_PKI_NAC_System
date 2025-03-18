@@ -119,31 +119,33 @@ Die korrekten AWS Ressourcen und Services für mein Projekt aussuchen
 
 ---
 
-#### 11.03.2025
+#### 18.03.2025
 
 ##### Tagesziele:
 
 - Benötigte Infrastruktur definieren und dokumentieren
 - Die dazugehörigen Ressourcen und Services dokumentieren
 - Überlegen wie ich es Cloud-Native machen kann
-- Netzwerkplan allenfalls anfangen 
+- Netzwerkplan allenfalls anfangen
+- Überlegen ob ich es mit Terraform mache
 
 
 ##### Was habe ich gemacht?
 
-- Ich habe das Skript fertig geschrieben
+- Ich habe meine Dokumentation bezüglich der Infrastruktur ergänzt
 - Infrastruktur geplannt
-- DB und Ec2 Instanz erstellt und miteinander verbunden
-- Meine Dokumentation bezüglich meine Idee und wie ich diese Umsetzte angefangen
+- Mich mit Terraform und Cloud-Nativ beschäftigt
+- Mein Netzwerkplan angefangen
+- Eine Hybrid-CLoud Umgebung mit AWS und Azure überlegt
 
 
 ##### Schwierigkeiten/Probleme:
 
-- Mein Private key hat nicht mehr funktioniert und ich musste neue instanzen mit einem neuem Schlüsselpaar erstellen und die alte löschen
+- Ich muss allenfalls eine Alternative zu AWS SES finden da es mit den Berechtigungen mit learnerlab nicht geht
 
 
 ##### Eingesetzte Ressourcen:
 
-- [Selfhost Bitwarden](https://www.youtube.com/watch?v=SSLGa0LjTrA&t=0s)
+- [Bitwarden-Architektur](https://www.rickgouin.com/self-host-bitwarden-in-aws/)
 - ChatGPT
-
+- [Terraform](https://developer.hashicorp.com/terraform/install)
