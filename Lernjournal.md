@@ -90,7 +90,7 @@ Die korrekten AWS Ressourcen und Services für mein Projekt aussuchen
 
 ---
 
-#### 04.03.2025
+#### 11.03.2025
 
 ##### Tagesziele:
 
@@ -116,3 +116,34 @@ Die korrekten AWS Ressourcen und Services für mein Projekt aussuchen
 
 - [Selfhost Bitwarden](https://www.youtube.com/watch?v=SSLGa0LjTrA&t=0s)
 - ChatGPT
+
+---
+
+#### 11.03.2025
+
+##### Tagesziele:
+
+- Benötigte Infrastruktur definieren und dokumentieren
+- Die dazugehörigen Ressourcen und Services dokumentieren
+- Überlegen wie ich es Cloud-Native machen kann
+- Netzwerkplan allenfalls anfangen 
+
+
+##### Was habe ich gemacht?
+
+- Ich habe das Skript fertig geschrieben
+- Infrastruktur geplannt
+- DB und Ec2 Instanz erstellt und miteinander verbunden
+- Meine Dokumentation bezüglich meine Idee und wie ich diese Umsetzte angefangen
+
+
+##### Schwierigkeiten/Probleme:
+
+- Mein Private key hat nicht mehr funktioniert und ich musste neue instanzen mit einem neuem Schlüsselpaar erstellen und die alte löschen
+
+
+##### Eingesetzte Ressourcen:
+
+- [Selfhost Bitwarden](https://www.youtube.com/watch?v=SSLGa0LjTrA&t=0s)
+- ChatGPT
+
