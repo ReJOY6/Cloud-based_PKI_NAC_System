@@ -149,3 +149,64 @@ Die korrekten AWS Ressourcen und Services für mein Projekt aussuchen
 - [Bitwarden-Architektur](https://www.rickgouin.com/self-host-bitwarden-in-aws/)
 - ChatGPT
 - [Terraform](https://developer.hashicorp.com/terraform/install)
+
+
+
+#### 25.03.2025
+
+Ich war die ganze Woche Krank und konnte dementsprechend nicht am Projekt arbeiten
+
+
+---
+
+
+#### 01.04.2025
+
+
+
+##### Tagesziele:
+
+- SCEPman einrichten
+
+##### Was habe ich gemacht?
+
+- SCEPman Ressource in Azure erstellt
+- Root-Zertifikat erstellt
+- Permission Assignments zugewiesen
+- MDM Profiles deployed in Intune
+
+
+##### Schwierigkeiten/Probleme:
+
+- Ich bin auf keine Probleme gestossen
+
+##### Eingesetzte Ressourcen:
+
+- SCEPman
+- Intune und Azure
+- ChatGPT
+
+---
+
+#### 08.04.2025
+
+
+##### Tagesziele:
+
+
+##### Was habe ich gemacht?
+
+
+
+
+##### Schwierigkeiten/Probleme:
+
+
+
+##### Eingesetzte Ressourcen:
+
+
+
+
+
+
