@@ -193,17 +193,32 @@ Ich war die ganze Woche Krank und konnte dementsprechend nicht am Projekt arbeit
 
 ##### Tagesziele:
 
+- RadiuSaaS einrichten
+- Proxy für RadiuSaaS einrichten
+- Root Zertifikat erstellen
+- Intune Richtlinien erstellen 
+
 
 ##### Was habe ich gemacht?
 
-
+- RadiuSaaS eingerichtet
+- Root Zertifikat erstellt
+- Proxy für RADIUS Protokol erstellt
+- Intune Richtlinien deployed
+- Zertifikatverteilung eingerichtet
 
 
 ##### Schwierigkeiten/Probleme:
 
+- Zertifikat Verteilung einrichten
 
 
 ##### Eingesetzte Ressourcen:
+
+- ##### [RadiuSaaS](https://www.radius-as-a-service.com/)
+- ##### Intune
+
+---
 
 
 
