@@ -2,17 +2,18 @@
 
 ---
 
-  - #### Lernjournal
+#### Lernjournal
 
 ---
 
 ## Projekte:
 
-  - #### Cloud app builders - Deployment einer Beispielanwendung in der Cloud
-  - #### MS-Fabric Umgebung
+  - #### Cloud PKI Infrastruktur
   - #### Bitwarden (Passwort Manager)
+  - #### MS-Fabric Umgebung
   
-
   ---
+
+
   
 
