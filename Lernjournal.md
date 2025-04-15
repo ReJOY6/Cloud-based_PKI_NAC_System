@@ -221,6 +221,39 @@ Ich war die ganze Woche Krank und konnte dementsprechend nicht am Projekt arbeit
 ---
 
 
+#### 15.04.2025
+
+
+##### Tagesziele:
+
+- Meraki Access Point für RADIUS Authentification konfigurieren
+- DHCP-Server IP-Scope definieren 
+- Zertifikatverteilung testen
+
+
+
+
+##### Was habe ich gemacht?
+
+- SSID erstellt
+- RADIUS Authentification für den AP eingerichtet
+- DHCP Scope definiert
+- Zertifikatsverteilung getstet
+- Dokumentation fortgesetzt
+
+
+##### Schwierigkeiten/Probleme:
+
+- Hatte probleme die RADIUS authentifizierung einzurichten
+
+
+##### Eingesetzte Ressourcen:
+
+- ##### [RadiuSaaS](https://www.radius-as-a-service.com/)
+- ##### Intune
+- ##### Meraki Dashboard
+
+
 
 
 
