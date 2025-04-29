@@ -8,7 +8,7 @@
 
 ## Projekte:
 
-  - #### Cloud PKI Infrastruktur
+  - #### Cloud PKI + Authentification Infrastruktur
   - #### Bitwarden (Passwort Manager)
   - #### MS-Fabric Umgebung
   

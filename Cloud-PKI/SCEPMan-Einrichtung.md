@@ -1,3 +1,0 @@
-## SCEPMan Einrichtung
-
----
