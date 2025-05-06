@@ -10,7 +10,9 @@ Bevor ich SCEPman im Azure deployen kann muss ich mir Global Admin rechte zuweis
 
 Anschliessend kann ich entweder direkt SCEPMan deployen oder durch Terraform. Ich habe mich entschieden beides zu dokumentieren.
 
-**Terraform:**
+**[Terraform](https://gitlab.com/semester_21/Modul-300/-/blob/main/Skripts/scepman.tf?ref_type=heads)**
+
+Das Terraform Skript dient auch gleichzeitig als Backup
 
 **Direkt über Azure**:
 
@@ -87,7 +89,7 @@ Um einen Überblick vom Traffic und allem zu haben habe ich noch zusätzlich ein
 ![alt text](image-36.png)
 ---
 
-## Heath-Check und Alarm-System
+## Heath-Check und Alarm-System (optional)
 
 Um die Verfügbarkeit zu gewährleisten ist es auch sehr wichtig einen Health-Check und ein Alarm System einzurichten damit wir möglichst früh mitbekommen falls SCEPman down wäre
 
