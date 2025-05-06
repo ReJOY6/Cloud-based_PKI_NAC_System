@@ -253,6 +253,34 @@ Ich war die ganze Woche Krank und konnte dementsprechend nicht am Projekt arbeit
 - ##### Intune
 - ##### Meraki Dashboard
 
+---
+
+#### 15.04.2025
+
+
+##### Tagesziele:
+
+- Dokumentation zielgerecht fertig schreiben
+
+
+
+##### Was habe ich gemacht?
+
+
+
+
+##### Schwierigkeiten/Probleme:
+
+- Unsicher wie ich die Struktur von der Doku umsetzen soll
+- Bekomme durch das dokumentieren ständig neue Ideen was ich noch zusätzlich für mein Projekt umsetzen könnte und weiss nicht ob ich mein Projekt eventuell verlängern sollte um meine zusätzlichen Ideen umzusetzen
+
+
+##### Eingesetzte Ressourcen:
+
+- ##### [RadiuSaaS](https://www.radius-as-a-service.com/)
+- ##### Intune
+- ##### Meraki Dashboard
+
 
 
 

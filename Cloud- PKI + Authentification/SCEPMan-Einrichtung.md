@@ -78,19 +78,88 @@ Nun sollte man oben rechts sehen das man das Zertifikat vom CA installieren kann
 
 ---
 
-### Application Insight einrichten (optional)
+### Application Insight einrichten 
 
+Um einen Überblick vom Traffic und allem zu haben habe ich noch zusätzlich einen Application Insight eingerichtet welcher den Traffic und die Server Verfügbarkeit zeigt, Dies erlaunbt es mir besser Trouble-Shooting zu betreiben
+
+![alt text](image-35.png)
+
+![alt text](image-36.png)
 ---
 
 ### Heath-Check und Alarm-System (optional)
+
+Um die Verfügbarkeit zu gewährleisten ist es auch sehr wichtig einen Health-Check und ein Alarm System einzurichten damit wir möglichst früh mitbekommen falls SCEPman down wäre
+
+Als erstes muss man unter Health Check denn Pfad zum probe eingeben. DIeser wäre einfach **"/probe**"
+
+Somit ist der Health-Check eingerichtet
+
+![alt text](image-37.png)
+
+Nun müssen wir auch noch ein Alarm-System einrichtet welches uns effektiv informiert falls der Health-Check fehlschlägt.
+
+Dafür geht man zu den Alerts und klickt auf create alert.
+Anschliessend kann man direkt auch die das Signal angeben was in unserem Fall der Health-Check wäre
+
+![alt text](image-38.png)
+
+
+![alt text](image-39.png)
+
+Ich habe es folgendermassen konfiguriert:
+Und zu schluss muss man noch eine Action-Group auswählen und das Alarm-System erstellen
+
+So würde es aussehen:
+
+![alt text](image-40.png)
+
+
+
 
 ---
 
 ### Auto-Scaling (optional)
 
+
+
 ---
 
-### Geo-Redundancy (optional)
+### Geo-Redundancy
+
+Da Geo-Redundancy in unserem Use-Case nicht relevant ist werde ich es nicht einrichtet aber zeigen wie es gehen würde.
+
+So sehe die Ziel-Architektur aus:
+
+![alt text](image-41.png)
+
+Um es umzusetzen ist sehr einfach falls man SCEPman als CaaS eingerichtet hat. WIe ich mit Terraform
+
+Man muss die komplette Einrichtung von SCEPman nochmals machen aber statt das es in der Schweiz gehostet wird muss man einen neuen Geo-Standort auswählen (z.B West-Europe)
+
+Somit muss ich nur das Skript mit einem neuen Standort anpassen
+Alternativ kann man es auch über folgendes CMDLET clonen:
+
+*****New-SCEPmanClone -SourceAppServiceName <Your SCEPman App Service Name> -TargetAppServiceName <Your cloned App Service Name> -TargetAppServicePlan <Your second App Service Plan in the second Geo Location> -SearchAllSubscriptions 6>&1*****
+
+Über das CMDLET wird alles automatisiert und man muss nichts mehr zusätzlich einrichten.
+
+Falls man will kann man noch den Traffic auf beide SCEP-man Applikationen balancieren um den Traffic zu minimieren und optimieren
+
+#### Traffic Manager Setup
+
+Das geht folgendermassen:
+
+Man geht zum **Traffic Manager profile**
+und wählt seine Ressourcen-Gruppe aus und gibt all die Daten an.
+
+**Beispiel**:
+
+![alt text](image-42.png)
+
+Und nun muss man es erstellen und die Konfiguration anpassen:
+
+![alt text](image-43.png)
 
 ---
 
