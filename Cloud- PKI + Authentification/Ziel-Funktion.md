@@ -64,6 +64,10 @@ Vorteile dieser Lösung:
 - **Hohe Skalierbarkeit und Verfügbarkeit**
 - **Kosteneffizienter Betrieb**, da keine eigene PKI oder RADIUS-Server betrieben werden müssen
 
+## Aktuelle Architektir
+
+![alt text](image-47.png)
+
 
 ## Zielarchitektur
 
