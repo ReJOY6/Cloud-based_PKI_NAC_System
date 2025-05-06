@@ -28,7 +28,7 @@ Nachdem Deployen wird man zu seiner Ressourcen Gruppe weitergeleitet welche eine
 
 Da SCEPman nach dem deployen nicht die Berechtigung hat mit dem Entra Directory und Intune Endpoint zu interagieren. Deswegen muss man ein Powershell Skript übers Azure ZLI ausführen um diese Berechtigungen zuzuteilen.
 
-Hier befindet sich das [Skript]()
+Hier befindet sich das [Skript](https://gitlab.com/semester_21/Modul-300/-/blob/main/Skripts/SCEPman-Permission.ps1?ref_type=heads)
 
 Das Azure CLI ist im Azure Cloud Shell bereits vorinstalliert also führe ich das Skript direkt in der Azure Cloud Shell aus.
 
@@ -165,4 +165,4 @@ Und nun muss man es erstellen und die Konfiguration anpassen:
 
 ### MDM Profil Deployment
 
-Siehe [Intune-Policies]()
+Siehe [Intune-Policies](https://gitlab.com/semester_21/Modul-300/-/blob/main/Cloud-%20PKI%20+%20Authentification/Intune-Policies.md?ref_type=heads)

@@ -81,7 +81,6 @@ Also 3 Monate vor Adem Ablauf.
 
 ### WiFi Profil Zerttifikat deployment
 
-Um Mein W
 
 ![alt text](image-31.png)
 

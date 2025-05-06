@@ -25,8 +25,8 @@ Nach Paar Minuten müssten alle Services Verfügbar sein
 
 ### RADIUSaaS MDM Deployment
 
-[Siehe folgendes]()
+[Siehe folgendes](https://gitlab.com/semester_21/Modul-300/-/blob/main/Cloud-%20PKI%20+%20Authentification/Intune-Policies.md?ref_type=heads)
 
 ### RADIUS/RadSec Authentification einrichten für Netzwerkgeräte
 
-[Siehe Folgendes]()
+[Siehe Folgendes](https://gitlab.com/semester_21/Modul-300/-/blob/main/Cloud-%20PKI%20+%20Authentification/Meraki-Radius-config.md?ref_type=heads)
