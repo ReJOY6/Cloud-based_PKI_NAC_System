@@ -1,6 +1,5 @@
 # Modul 300
 
----
 
 #### [Lernjournal](https://gitlab.com/semester_21/Modul-300/-/blob/main/Lernjournal.md?ref_type=heads)
 
@@ -19,7 +18,19 @@
 
 
 
-  ---
+---
+
+## Angefangene aber Nicht-vollendete Projekte:
+
+- #### Passwort-Manager (Bitwarden):
+   - ##### [Infrastruktur](https://gitlab.com/semester_21/Modul-300/-/blob/main/Bitwarden/Infrastruktur-Netztwerkplan.md?ref_type=heads)
+ - #### MS Fabric Umgebung
+    - ##### [Ziellösung-Netzwerkplan]()
+
+
+
+
+
 
 
   
