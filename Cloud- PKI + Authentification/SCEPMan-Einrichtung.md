@@ -87,7 +87,7 @@ Um einen Überblick vom Traffic und allem zu haben habe ich noch zusätzlich ein
 ![alt text](image-36.png)
 ---
 
-## Heath-Check und Alarm-System (optional)
+## Heath-Check und Alarm-System
 
 Um die Verfügbarkeit zu gewährleisten ist es auch sehr wichtig einen Health-Check und ein Alarm System einzurichten damit wir möglichst früh mitbekommen falls SCEPman down wäre
 
