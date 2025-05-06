@@ -25,7 +25,7 @@
 - #### Passwort-Manager (Bitwarden):
    - ##### [Infrastruktur](https://gitlab.com/semester_21/Modul-300/-/blob/main/Bitwarden/Infrastruktur-Netztwerkplan.md?ref_type=heads)
  - #### MS Fabric Umgebung
-    - ##### [Ziellösung-Netzwerkplan]()
+    - ##### [Ziellösung-Netzwerkplan](https://gitlab.com/semester_21/Modul-300/-/blob/main/MS%20Fabric%20Umgebung/Ziell%C3%B6sung-Netzwerkplan.md?ref_type=heads)
 
 
 
