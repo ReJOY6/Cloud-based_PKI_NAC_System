@@ -1,7 +1,7 @@
-## SCEPMan Einrichtung
+# SCEPMan Einrichtung
 
 
-### Azure Deployment + Terraform
+## Azure Deployment + Terraform
 
 
 Bevor ich SCEPman im Azure deployen kann muss ich mir Global Admin rechte zuweisen.
@@ -24,7 +24,7 @@ Nachdem Deployen wird man zu seiner Ressourcen Gruppe weitergeleitet welche eine
 
 ---
 
-### Permission Assignments
+## Permission Assignments
 
 Da SCEPman nach dem deployen nicht die Berechtigung hat mit dem Entra Directory und Intune Endpoint zu interagieren. Deswegen muss man ein Powershell Skript übers Azure ZLI ausführen um diese Berechtigungen zuzuteilen.
 
@@ -32,7 +32,7 @@ Hier befindet sich das [Skript](https://gitlab.com/semester_21/Modul-300/-/blob/
 
 Das Azure CLI ist im Azure Cloud Shell bereits vorinstalliert also führe ich das Skript direkt in der Azure Cloud Shell aus.
 
-### SCEPman Certificate Master Konfiguration
+## SCEPman Certificate Master Konfiguration
 
 Da wir SCEPman nicht nur für die Client Zertifikate bezüglich dem NAC einrichten möchten sondern auch für die Zertifikatausstellung bezüglich Webservern müssen wir den Certificate Master Konfigurieren. 
 Dieser hat die Funktion Webserver Zertifikate auszustellen.
@@ -57,7 +57,7 @@ Somit habe ich nun Adminrechte um alle Arten von Zertifikate zu requesten, revok
 
 ---
 
-### SCEPman Root Zertifikat erstellen
+## SCEPman Root Zertifikat erstellen
 
 Damit wir SCEPman als vertrauenswürdigen CA definieren können müssen wir das Root Zertifikat an die ganzen Clients verteilen. Dafür muss aber erstmal ein Root-Zertifikat erstellt werdem
 
@@ -78,7 +78,7 @@ Nun sollte man oben rechts sehen das man das Zertifikat vom CA installieren kann
 
 ---
 
-### Application Insight einrichten 
+## Application Insight einrichten 
 
 Um einen Überblick vom Traffic und allem zu haben habe ich noch zusätzlich einen Application Insight eingerichtet welcher den Traffic und die Server Verfügbarkeit zeigt, Dies erlaunbt es mir besser Trouble-Shooting zu betreiben
 
@@ -87,7 +87,7 @@ Um einen Überblick vom Traffic und allem zu haben habe ich noch zusätzlich ein
 ![alt text](image-36.png)
 ---
 
-### Heath-Check und Alarm-System (optional)
+## Heath-Check und Alarm-System (optional)
 
 Um die Verfügbarkeit zu gewährleisten ist es auch sehr wichtig einen Health-Check und ein Alarm System einzurichten damit wir möglichst früh mitbekommen falls SCEPman down wäre
 
@@ -119,8 +119,53 @@ So würde es aussehen:
 
 ---
 
-### Auto-Scaling (optional)
+## Auto-Scaling
 
+#### Grund für Autoscaling:
+
+##### 1. Zertifikatsausstellung:
+Nach der Konfiguration von SCEPman müssen Zertifikate an alle Geräte verteilt werden (Benutzer- und/oder Geräte-Zertifikate). Dies ist im Wesentlichen ein einmaliger Vorgang. Danach erfolgt die Zertifikatsausstellung nur noch bei der Registrierung neuer Geräte oder bei der Erneuerung bestehender Zertifikate. In diesen Phasen entsteht ein temporärer Lastanstieg durch eine hohe Anzahl an SCEP-Anfragen.
+
+##### 2. Zertifikatsvalidierung:
+Nach der Ausstellung müssen die Zertifikate regelmäßig validiert werden – etwa bei jeder zertifikatsbasierten Authentifizierung. Dabei senden Clients, Gateways oder RADIUS-Systeme (je nach Infrastruktur) OCSP-Anfragen an den SCEPman App Service. Diese Validierungsanfragen erzeugen eine kontinuierliche Grundlast auf dem App Service.
+
+Aus diesem Grund macht es Sinn einen Auto-Scaler einzurichten.
+
+### Autoscale-Konfiguration
+
+Um die Anzahl der Instanzen dynamisch an die aktuelle Auslastung des Dienstes anzupassen, müssen zwei Skalierungsregeln definiert werden:  
+- Eine Regel zum **Erhöhen** der Instanzanzahl bei hoher Last  
+- Eine Regel zum **Verringern** der Instanzanzahl, sobald die Last wieder sinkt
+
+![alt text](image-44.png)
+
+#### Konfiguration:
+
+1. **Wähle „Custom autoscale“**  
+   Aktiviere den benutzerdefinierten Autoscale-Modus.
+
+2. **Vergib einen passenden Namen**  
+   Trage unter *Autoscale setting name* eine aussagekräftige Bezeichnung ein.
+
+3. **Wähle „Scale based on a metric“**  
+   Dadurch wird das Autoscaling auf Grundlage von Metriken aktiviert.
+
+4. **Lege die Instanzgrenzen fest:**
+   - **Minimum:** Untergrenze der Instanzanzahl
+   - **Maximum:** Obergrenze der Instanzanzahl
+   - **Default:** Standardanzahl der Instanzen (Startwert)
+
+5. **Füge zwei Skalierungsregeln hinzu:**
+   - Eine Regel zur **Erhöhung** der Instanzanzahl bei erh
+
+
+#### Increase Instance Count Rule:
+
+![alt text](image-45.png)
+
+#### decrease Instance Count Rule:
+
+![alt text](image-46.png)
 
 
 ---
