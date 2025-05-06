@@ -131,7 +131,7 @@ Nach der Ausstellung müssen die Zertifikate regelmäßig validiert werden – e
 
 Aus diesem Grund macht es Sinn einen Auto-Scaler einzurichten.
 
-### Autoscale-Konfiguration
+#### Autoscale-Konfiguration
 
 Um die Anzahl der Instanzen dynamisch an die aktuelle Auslastung des Dienstes anzupassen, müssen zwei Skalierungsregeln definiert werden:  
 - Eine Regel zum **Erhöhen** der Instanzanzahl bei hoher Last  
@@ -139,7 +139,7 @@ Um die Anzahl der Instanzen dynamisch an die aktuelle Auslastung des Dienstes an
 
 ![alt text](image-44.png)
 
-#### Konfiguration:
+##### Konfiguration:
 
 1. **Wähle „Custom autoscale“**  
    Aktiviere den benutzerdefinierten Autoscale-Modus.
@@ -208,6 +208,6 @@ Und nun muss man es erstellen und die Konfiguration anpassen:
 
 ---
 
-### MDM Profil Deployment
+## MDM Profil Deployment
 
 Siehe [Intune-Policies](https://gitlab.com/semester_21/Modul-300/-/blob/main/Cloud-%20PKI%20+%20Authentification/Intune-Policies.md?ref_type=heads)

@@ -1,7 +1,7 @@
 # Intune-Policies
 
 
-### SCEPman Root Zertifikat deployment
+## SCEPman Root Zertifikat deployment
 
 Als aller erstes muss man zum SCEPman Portal und dort das Root-Zertifikat herunterladen welche ich bei der SCEPman Einrichtung erstellt habe
 
@@ -41,7 +41,7 @@ Wie man auf dem Bild sehen kann ist das der Fall
 
 
 
-### RadiuSaaS Root Zertifikat deployment
+## RadiuSaaS Root Zertifikat deployment
 
 Genau die gleichen Schritten wie oben beim SCEPman Rootzertifikat beschrieben.
 
@@ -54,7 +54,7 @@ Die Verteilung hat hier ebenfalls funktioniert
 
 
 
-### SCEPman Client Zertifikat deployment
+## SCEPman Client Zertifikat deployment
 
 Für das austellen der Client Zertifikate gehe ich gleich vor wie oben.
 Jedoch statt das ich den Profiltyp als Vertrauenswürdiges Zertifikat angebe,  definiere ich es als SCEP-Zertifikat 
