@@ -64,7 +64,7 @@ Vorteile dieser Lösung:
 - **Hohe Skalierbarkeit und Verfügbarkeit**
 - **Kosteneffizienter Betrieb**, da keine eigene PKI oder RADIUS-Server betrieben werden müssen
 
-## Aktuelle Architektir
+## Aktuelle Architektur
 
 ![alt text](image-47.png)
 
@@ -81,6 +81,45 @@ Anders als auf dem Bild jedoch ist mein Ziel das die Authentifzierung grösstent
 
 Des weiteren werden nur die Client-Zertifikate über Microsoft Intune verteilt. Da wir unsere Server nicht im Intune/Azure registriert haben werden die Serverzertifikate über die lokalen AD GPOs verteilt.
 
+#### Monitoring und Alarming-System
+
+**SCEPman:**
+
+- Application Insight
+- Heath-Check und Alarm-System
+
+**RadiuSaaS:**
+
+- Insight-Application
+
+**Netzwerkgeräte:**
+
+- PRTG-Monitoring
+
+
+#### Backup und Verfügbarkeit
+
+**SCEPman:**
+
+- Traffic Manager (Für den Traffic)
+- Auto-Scaling (Kostensparen und Traffic)
+- Geo-Redundancy (Verfügbarkeit)
+- Terraform-Skript (Backup und schnelle Set-Up)
+
+**RadiuSaaS:**
+
+- Zusätzlichen Proxy konfiguriert (Verfügbarkeit und Geo-Redundancy)
+- SaaS Lösung (Backup durch Dienstleister gegeben)
+
+**Netzwerk-Geräte**
+
+- Weitere Netzwerkgeräte Verfügbar im Lager
+
+
+
+
 ---
+
+
 
 

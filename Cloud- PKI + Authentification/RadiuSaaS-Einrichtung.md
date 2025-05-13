@@ -14,6 +14,8 @@ Ich habe mich entschieden einfach die URL hinzuzufügen
 
 Da nicht alle unsere Switches und AP sich über das RadSec Protokol Autentifizieren kann müssen wir auch das RADIUS Protokol zulassen.
 
+Des weiteren ist somit Geo-Redudancy gewährleistet
+
 Dafür müssen wir einen Proxy erstellen welcher RADIUS UDP Traffic erlaubt.
 Ich habe den Proxy in Frankfurt erstellt für die Konnektivität.
 
