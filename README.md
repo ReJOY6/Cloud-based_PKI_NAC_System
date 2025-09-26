@@ -1,5 +1,9 @@
 # Modul 300
 
+**Projektbeschreibung:**  
+
+Dieses Repository dokumentiert die Umsetzung einer cloudbasierten Network Access Control (NAC) und Public Key Infrastructure (PKI) Infrastruktur. Ziel ist es, moderne Sicherheitslösungen wie SCEPMan, RadiuSaaS und Intune-Policies zu evaluieren und praktisch einzurichten. Zusätzlich werden begonnene, aber nicht vollendete Projekte wie ein Passwort-Manager und eine MS Fabric Umgebung vorgestellt.
+
 
 #### [Lernjournal](https://gitlab.com/semester_21/Modul-300/-/blob/main/Lernjournal.md?ref_type=heads)
 
